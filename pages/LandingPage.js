@@ -1,14 +1,15 @@
-import React from 'react'
-import { useHistory } from 'react-router';
-import '../styles/LandingPage.scss'
+import React, { useEffect } from 'react'
+import Head from 'next/head'
+//import { useHistory } from 'react-router';
 
 
 function LandingPage() {
 
-    const history = useHistory();
-
-    document.querySelector("body").style.backgroundSize = "cover";
-    document.querySelector("body").style.backgroundRepeat = "no-repeat";
+    //const history = useHistory();
+    useEffect(() => {
+        document.querySelector("body").style.backgroundSize = "cover";
+        document.querySelector("body").style.backgroundRepeat = "no-repeat";
+    },[])
 
     return (
         <div className="lpPage">
