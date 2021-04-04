@@ -5,6 +5,15 @@ $red: #c70136;
 $gray: #e5e7e9;
 $darker-gray: #cacece;
 
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .lpPage {
   max-width: 2000px;
   margin: auto;

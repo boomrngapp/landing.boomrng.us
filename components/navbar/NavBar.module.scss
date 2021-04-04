@@ -1,0 +1,210 @@
+$dark-blue: #024e99;
+$blue-sky: #02aded;
+$yellow: #ffbb00;
+$red: #c70136;
+$gray: #e5e7e9;
+$darker-gray: #cacece;
+$black: #00000060;
+
+.navBar {
+  width: 100%;
+  background-color: white;
+  .first-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 0 5%;
+    img {
+      width: 20vw;
+      cursor: pointer;
+    }
+    .burger-menu {
+      display: none;
+    }
+    .loginAndLogout {
+      display: flex;
+      align-items: center;
+      p {
+        margin-right: 20px;
+        cursor: pointer;
+        color: rgb(87, 87, 87);
+        font-size: 1.5vw;
+        font-weight: 700;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+    .search-input-LargeSreens {
+      display: block;
+    }
+    .searchInput-container {
+      position: relative;
+      width: fit-content;
+      .searchInput {
+        width: 50px;
+        height: 40px;
+        margin-right: 20px;
+        border-radius: 15px;
+        border: 1pt solid $darker-gray;
+        padding-left: 20px;
+        padding-right: 10px;
+        font-size: 20px;
+        transition: all 1s ease;
+      }
+      .searchInput::placeholder {
+        color: $darker-gray;
+      }
+      .search-icon {
+        margin-right: 20px;
+        transform: scale(1.3);
+        cursor: pointer;
+        fill: rgb(87, 87, 87);
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        &:hover {
+          fill: black;
+        }
+      }
+    }
+  }
+  .second-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+    font-size: 18px;
+    font-weight: 900;
+    .search-input-smallSreens {
+      display: none;
+    }
+    .close {
+      display: none;
+    }
+    p {
+      margin-right: 60px;
+      cursor: pointer;
+      font-size: 30px;
+    }
+    .designer-cards {
+      color: $dark-blue;
+    }
+    .create-cards {
+      color: $blue-sky;
+    }
+    .designers {
+      color: $yellow;
+    }
+    .business {
+      color: $red;
+    }
+  }
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+@media screen and(max-width: 1700px) {
+  .navBar {
+    .second-section {
+      p {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 880px) {
+  .navBar {
+    .first-section {
+      border-bottom: 1px solid $black;
+      height: 80px;
+      .logo {
+        width: 30%;
+      }
+      .search-input-LargeSreens {
+        display: none;
+      }
+      .burger-menu {
+        display: block;
+        transform: scale(1.3);
+        fill: rgb(87, 87, 87);
+        cursor: pointer;
+      }
+      .loginAndLogout {
+        p {
+          margin-right: 10px;
+          font-size: 15px;
+        }
+      }
+    }
+    .second-section {
+      position: fixed;
+      background-color: white;
+      top: 0;
+      right: -400px;
+      height: 100vh;
+      z-index: 5;
+      width: 300px;
+      border: none;
+      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      padding: 50px;
+      padding-top: 70px;
+      transition: all 1s ease;
+      .close {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        fill: rgb(87, 87, 87);
+        cursor: pointer;
+        &:hover {
+          fill: black;
+        }
+      }
+      .search-input-smallSreens {
+        display: block;
+        position: relative;
+        width: fit-content;
+        margin-bottom: 10px;
+        input {
+          width: 100%;
+          height: 40px;
+          border-radius: 15px;
+          border: 1pt solid $darker-gray;
+          padding-left: 20px;
+          padding-right: 10px;
+          font-size: 20px;
+          transition: all 1s ease;
+        }
+        .search-icon {
+          position: absolute;
+          transform: scale(1.3);
+          cursor: pointer;
+          fill: rgb(87, 87, 87);
+          top: 8px;
+          right: 10px;
+          &:hover {
+            fill: black;
+          }
+        }
+      }
+      p {
+        margin: 10px 0;
+      }
+    }
+  }
+}

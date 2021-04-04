@@ -1,0 +1,233 @@
+$black: #00000060;
+$red: #c70136;
+$darker-gray: #cacece;
+
+.main-footer {
+  border-top: 1px solid $black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  .left {
+    .navigations {
+      display: flex;
+      margin-bottom: 20px;
+      ul {
+        padding: 0;
+        margin-right: 100px;
+        h4 {
+          margin-bottom: 0;
+          margin-top: 0;
+          cursor: auto;
+        }
+        li {
+          list-style-type: none;
+          font-size: 18px;
+          margin-bottom: 10px;
+          cursor: pointer;
+        }
+        a {
+          color: black;
+          text-decoration: none;
+        }
+      }
+    }
+    .copyRight {
+      margin: 20px 0;
+      margin-bottom: 40px;
+      margin-top: 70px;
+      p {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        svg {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .right {
+    width: fit-content;
+    h3 {
+      font-size: 28px;
+      text-align: center;
+      font-family: "Caveat", cursive;
+      margin-top: 0;
+      color: $red;
+      margin-bottom: 20px;
+    }
+    form {
+      input {
+        width: 200px;
+        margin-right: 15px;
+        height: 40px;
+        margin-bottom: 15px;
+        border: 1px solid $darker-gray;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-size: 18px;
+      }
+      input::placeholder {
+        color: $darker-gray;
+      }
+      .email-input {
+        width: 415px;
+        margin-right: 0;
+      }
+    }
+    .social-media {
+      width: fit-content;
+      float: right;
+      margin-top: 10px;
+      .twitter-icon,
+      .Pinterest-icon {
+        width: 2.9vw;
+      }
+      img {
+        margin-right: 10px;
+        cursor: pointer;
+        opacity: 0.5;
+        width: 3vw;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1355px) {
+  .main-footer {
+    .right {
+      h3 {
+        font-size: 31px;
+      }
+      form {
+        width: 415px;
+        input {
+          width: 415px;
+          margin-right: 0;
+        }
+      }
+      .social-media {
+        float: none;
+        margin: auto;
+        // .twitter-icon, .Pinterest-icon{
+        //   width: 3.9vw;
+        // }
+        img {
+          margin-right: 0.7vw;
+          // width: 4vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1200px) {
+  .main-footer {
+    .right {
+      margin: auto;
+      h3 {
+        font-size: 31px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1100px) {
+  .main-footer {
+    flex-direction: column-reverse;
+    .right {
+      .social-media {
+        float: none;
+        margin-bottom: 100px;
+        .twitter-icon,
+        .Pinterest-icon {
+          width: 4.9vw;
+        }
+        img {
+          margin-right: 0.7vw;
+          width: 5vw;
+        }
+      }
+      h3 {
+        font-size: 31px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 700px) {
+  .main-footer {
+    flex-direction: column-reverse;
+    .right {
+      width: fit-content;
+      margin: auto;
+      h3 {
+        font-size: 16px;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .social-media {
+        float: none;
+        margin: auto;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        img {
+          width: 7vw;
+        }
+        .twitter-icon,
+        .Pinterest-icon {
+          width: 6.9vw;
+        }
+        .instagram-icon {
+          width: 7.3vw;
+        }
+      }
+      form {
+        width: 290px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        input {
+          width: 80%;
+          margin-right: 0;
+          margin: auto;
+          margin-bottom: 10px;
+        }
+        .email-input {
+          margin-right: 0;
+          width: 80%;
+          margin: auto;
+        }
+        .email-input,
+        .lastName-input {
+          margin-bottom: -10px;
+        }
+      }
+    }
+    .left {
+      .navigations {
+        flex-direction: column;
+        ul {
+          li {
+            font-size: 3vw;
+          }
+        }
+      }
+      .copyRight {
+        margin: 0;
+        p {
+          font-size: 2vw;
+        }
+        svg {
+          transform: scale(0.4);
+          margin-right: -5px !important;
+        }
+      }
+    }
+  }
+}
