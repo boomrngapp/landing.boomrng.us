@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import styles from './SimpleFooter.module.scss'
 import CopyrightIcon from '@material-ui/icons/Copyright'
 import Link from 'next/link'
-import Image from 'next/image'
+//import Image from 'next/image'
 
 //import { useHistory } from 'react-router';
 
