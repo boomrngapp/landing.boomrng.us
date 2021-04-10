@@ -1,0 +1,2 @@
+nextslsamplifyApp:
+  component: "@sls-next/serverless-component"
