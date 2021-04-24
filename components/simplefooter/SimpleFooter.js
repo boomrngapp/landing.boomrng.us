@@ -17,12 +17,12 @@ function SimpleFooter() {
                 <p className={styles.securitytext}><Link href='/PrivacyAndSecurity'><span className={styles.link} >Privacy & Security</span></Link> | <Link href='/TermsAndConditions'><span className={styles.link} >Terms & Conditions</span></Link></p>
                 <p className={styles.copyright}><CopyrightIcon /> 2021 boomrng, LLC. All Rights Reserved. Terms and Conditions of Use.</p>
             </div>
-            {/* <div className={styles.socialmedia}>
-                <a href="https://www.facebook.com/boomrngapp" target="_blank"><Image className={styles.fbicon} src="/assets/FB_Icon.png" alt="facebook icon" layout="fill" /></a>
-                <a href=" https://www.instagram.com/boomrngapp" className={styles.instagramicon} target="_blank"><Image src="/assets/Instagra_Icon.png" alt="instagram icon" layout="fill" /></a>
-                <a href="https://twitter.com/home" target="_blank"><Image className={styles.twittericon} src="/assets/Twitter_Icon.png" alt="twitter icon" layout="fill" /></a>
-                <a href="https://www.pinterest.com/business/hub/" className={styles.Pinteresticon} target="_blank"><Image src="/assets/Pinterest_Icon.png" alt="pinterest icon" layout="fill" /></a>
-            </div> */}
+            <div className={styles.socialmedia}>
+                <a href="https://www.facebook.com/boomrngapp" target="_blank"><img className={styles.fbicon} src="/assets/FB_Icon.png" alt="facebook icon" layout="fill" /></a>
+                <a href=" https://www.instagram.com/boomrngapp" className={styles.instagramicon} target="_blank"><img src="/assets/Instagra_Icon.png" alt="instagram icon" layout="fill" /></a>
+                <a href="https://twitter.com/boomrngapp" target="_blank"><img className={styles.twittericon} src="/assets/Twitter_Icon.png" alt="twitter icon" layout="fill" /></a>
+                <a href="https://www.pinterest.com/business/hub/" className={styles.pinteresticon} target="_blank"><img src="/assets/Pinterest_Icon.png" alt="pinterest icon" layout="fill" /></a>
+            </div>
         </div>
     )
 }

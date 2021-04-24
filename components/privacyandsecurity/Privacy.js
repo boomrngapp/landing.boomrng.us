@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
-import './PrivacyAndSecurity.module.scss' //Error: global CSS cannot be imported from files other than your Custom <App>.
+import styles from './PrivacyAndSecurity.module.scss' //Error: global CSS cannot be imported from files other than your Custom <App>.
+import Link from 'next/link'
 
 function Privacy() {
 
@@ -9,10 +10,10 @@ function Privacy() {
         },[])
 
     return (
-        <div className="privacyAndSecurity">
+        <div className={styles.privacyAndSecurity}>
             <h2>PRIVACY & SECURITY POLICY</h2>
-            <div className="content">
-                <h3 className="last-updated">Last Updated: March 2021</h3>
+            <div className={styles.content}>
+                <h3 className={styles.lastUpdated}>Last Updated: March 2021</h3>
                 <p>boomrng, Limited Liability Company and its affiliated companies (collectively “boomrng,” “we,” or “our”) value customers (sometimes referred to herein as “you”) and respect their privacy.  This Privacy Policy (this "Policy") describes boomrng’s collection, processing and use of customer, mobile application user, and website visitor information (collectively, “personal information” or “data”) when you interact with or use boomrng customer service, promotions, mobile applications, social media and websites (collectively, “Applications”). By using our Applications, or by choosing to submit personal information to boomrng, you signify your consent to all of the terms of this Policy. If you do not agree with the terms of this Policy, please do not use the Applications or submit any personal information to boomrng. This Privacy Policy has been compiled to better serve those who are concerned with how their “Personally Identifiable Information” (“PII”) is being used online. PII, as described in US privacy law and with respect to information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context, and is included in the term “personal information” herein. boomrng wants you to be confident that your personal information is being handled securely and give you an opportunity to contact us with privacy-related inquiries and requests. Please read this Policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your personal information.</p>
                 <p>We strive to treat our users the way we want to be treated online. In short, we do the following:</p>
                 <p>(1) We collect information to facilitate the basic functionality of, and to improve, our Applications.</p>
@@ -127,7 +128,7 @@ function Privacy() {
                 <h3>DISPUTE RESOLUTION</h3>
                 <p>We are committed to working with you to obtain a fair resolution of any complaint. We encourage you to begin by contacting us. We endeavor to respond to requests promptly. Any dispute arising under or relating to the provisions of this Privacy Policy will be governed in accordance with boomrng’s Terms and Conditions found on our website.  E.U. residents also have the right to lodge complaints with the data protection authority of their country of residence.</p>
                 <h3>QUESTIONS</h3>
-                <p>For any questions or comments you may have about these Terms, please contact us at: info@boomrng.us</p>
+                <p>For any questions or comments you may have about these Terms, please contact us at: <span><Link href='mailto:info@boomrng.us'>info@boomrng.us</Link></span></p>
             </div>
         </div>
     )
