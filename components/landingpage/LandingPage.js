@@ -32,6 +32,7 @@ function LandingPage() {
                 <img className={styles.phonescreen1} src="/assets/boomrng_address_update.png" alt="phone screen"/>
                 <div className={styles.signUpsection}>
                     <h2>Sign up<br/> <span>below...</span></h2>
+                    <img className={styles.phonescreen2} src="/assets/boomrng-category-update.png" alt="phone sceen"/>
                     <p>How about a digital gift card to go along with your card that can be used at any retailer that accepts the gift cards online or in store.</p>
                     <p>You can complete your shopping all within the boomrng platform!</p>
                     <p>Get on our list to be the first to try boomrng!</p>
@@ -46,7 +47,6 @@ function LandingPage() {
                     </form> */}
                     <HubspotForms></HubspotForms>
                 </div>
-                <img className={styles.phonescreen2} src="/assets/boomrng-category-update.png" alt="phone sceen"/>
             </div>
         </div>
     )
