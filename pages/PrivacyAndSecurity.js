@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Head from 'next/head'
 import Privacy from '../components/privacyandsecurity/Privacy';
 import SimpleFooter from '../components/simplefooter/SimpleFooter';
+import SimpleHeader from '../components/simpleheader/SimpleHeader'
 
 
 function PrivacyAndSecurity() {
@@ -23,7 +24,7 @@ function PrivacyAndSecurity() {
 
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
+            <SimpleHeader></SimpleHeader>
             <Privacy></Privacy>
             <SimpleFooter></SimpleFooter>
         </div>

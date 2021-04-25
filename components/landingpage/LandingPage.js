@@ -1,13 +1,10 @@
 import React, { useEffect } from 'react'
 import styles from './LandingPage.module.scss'
-import Head from 'next/head'
 import HubspotForms from '../hubspotforms/HubspotForms'
-//import { useHistory } from 'react-router';
 
 
 function LandingPage() {
 
-    //const history = useHistory();
     useEffect(() => {
         document.querySelector("body").style.backgroundSize = "cover";
         document.querySelector("body").style.backgroundRepeat = "no-repeat";

@@ -2,11 +2,10 @@ import React, { useEffect } from 'react'
 import Head from 'next/head'
 import SimpleFooter from '../components/simplefooter/SimpleFooter';
 import Terms from '../components/termsandconditions/Terms';
-// import { useHistory } from 'react-router';
+import SimpleHeader from '../components/simpleheader/SimpleHeader'
 
 function TermsAndConditions() {
 
-    // const history = useHistory();
 
     useEffect(() => {
     document.querySelector("body").style.backgroundSize = "contain";
@@ -25,7 +24,7 @@ function TermsAndConditions() {
 
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
+            <SimpleHeader></SimpleHeader>
             <Terms></Terms>
             <SimpleFooter></SimpleFooter>
         </div>

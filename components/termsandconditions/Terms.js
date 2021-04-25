@@ -34,7 +34,7 @@ function Terms() {
                     <li>for any unlawful purpose, including posting, storing, sending, or otherwise transmitting information, data or material that is libelous, obscene, threatening, harassing, or defamatory or which infringes the intellectual property rights of any person or which in any way encourages conduct that would be unlawful or inappropriate;</li>
                     <li>in connection with any unsolicited bulk or commercial messages (commonly known as "spam"), any advertising or other form of communication that violates these Terms or any law or regulation, or in any manner that would disrupt in any way any internet site or services;</li>
                     <li>to initiate or perpetuate any illegal scheme (such as a pyramid scheme);</li>
-                    <li>to harvest (or engage in any type of systematic retrieval of) e-mail addresses or other identifiers or information or collect email addresses;</li>
+                    <li>to harvest (or engage in any type of systematic retrieval of) email addresses or other identifiers or information or collect email addresses;</li>
                     <li>to impersonate any person or entity, falsify any sender address, forge anyone’s identity or perform any other fraudulent activity (such as "phishing");</li>
                     <li>to interfere with, or attempt to interfere with, any person’s ability to use the services offered on the Applications;</li>
                     <li>to transmit or otherwise make available through our Applications any computer code, file, program or other element (including any virus, worm, or other harmful malware of any nature) that would interrupt, destroy, interfere with or otherwise cause any other effect that might reasonably be considered undesirable;</li>
@@ -50,18 +50,19 @@ function Terms() {
                 <ol type="a">
                     <li>A description of the copyrighted work or other intellectual property that you claim has been infringed;</li>
                     <li>A description of where the material that you claim is infringing is located on the Applications;</li>
-                    <li>An address, a telephone number, and an e-mail address where boomrng can contact you;</li>
+                    <li>An address, a telephone number, and an email address where boomrng can contact you;</li>
                     <li>A statement that you have a good-faith belief that the use is not authorized by the copyright or other intellectual property rights owner, by its agent, or by law;</li>
                     <li>A statement by you under penalty of perjury that the information in your notice is accurate and that you are the copyright or intellectual property owner or are authorized to act on the owner’s behalf;</li>
                     <li>Your electronic or physical signature.</li>
                 </ol>
-                <p>boomrng may request additional information before removing any infringing material. boomrng may provide the alleged infringing party with your e-mail address so that that person can respond to your allegations.</p>
+                <p>boomrng may request additional information before removing any infringing material. boomrng may provide the alleged infringing party with your email address so that that person can respond to your allegations.</p>
                 <p>Pursuant to Title 17, United State code, Section 512(c)(2), notifications of claimed copyright infringement should be sent to Service Provider’s Designated Agent listed below. ALL INQUIRES NOT RELEVANT TO THE FOLLOWING PROCEDURE WILL RECEIVE NO RESPONSE.</p>
                 <p>
                     boomrng, Limited Liability Company<br/>
                     Attn: Legal Department<br/>
-                    P.O. Box 698<br/>
-                    SIGNAL MOUNTAIN, TN 37377<br/>
+                    1155 Ridgeway Avenue<br/>
+                    P.O. Box 78682<br/>
+                    Signal Mountain, TN 37377<br/>
                 </p>
                 <h3>LINKS, FRAMES AND METATAGS</h3>
                 <p>You may not frame the content of our Applications unless you first obtain our express prior written consent in each case. You may not use metatags or any other "hidden text" that incorporates boomrng Trademarks or marks confusingly similar to our boomrng Trademarks without our prior written consent.</p>
@@ -100,7 +101,7 @@ function Terms() {
                 <p>We will not be liable or responsible to you, nor be deemed to have defaulted or breached these Terms, for any failure or delay in our performance under these Terms when and to the extent such failure or delay is caused by or results from acts or circumstances beyond our reasonable control, including, without limitation, acts of God, epidemic, pandemic, flood, fire, earthquake, explosion, governmental actions, war, invasion or hostilities (whether war is declared or not), terrorist threats or acts, riot or other civil unrest, national emergency, revolution, insurrection, epidemic, lockouts, strikes or other labor disputes (whether or not relating to our workforce), or restraints or delays affecting carriers or inability or delay in obtaining supplies of adequate or suitable materials, materials or telecommunication or internet breakdown or power outage.</p>
                 <h3>NOTICES</h3>
                 <p>To You: We may provide any notice to you under these Terms by: (i) sending a message to the email address you provide or (ii) by posting to the Applications. Notices sent by email will be effective when we send the email and notices we provide by posting will be effective upon posting. It is your responsibility to keep your email address current.</p>
-                <p>To Us: To give us notice under these Terms, you must contact us by personal delivery, overnight courier or registered or certified mail to boomrng, Limited Liability Company, P.O. Box 698, Signal Mountain, TN 37377. We may update the address for notices to us by posting a notice on the Applications. Notices provided by personal delivery will be effective immediately. Notices provided by facsimile transmission or overnight courier will be effective one business day after they are sent. Notices provided by registered or certified mail will be effective three business days after they are sent.</p>
+                <p>To Us: To give us notice under these Terms, you must contact us by personal delivery, overnight courier or registered or certified mail to boomrng, Limited Liability Company, 1155 Ridgeway Avenue, P.O. Box 78682, Signal Mountain, TN 37377. We may update the address for notices to us by posting a notice on the Applications. Notices provided by personal delivery will be effective immediately. Notices provided by facsimile transmission or overnight courier will be effective one business day after they are sent. Notices provided by registered or certified mail will be effective three business days after they are sent.</p>
                 <h3>QUESTIONS</h3>
                 <p>For any questions or comments you may have about these Terms, please contact us at: <span><Link href='mailto:info@boomrng.us'>info@boomrng.us</Link></span></p>
             </div>
