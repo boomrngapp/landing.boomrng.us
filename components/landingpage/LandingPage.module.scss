@@ -40,7 +40,7 @@ $darker-gray: #cacece;
   .secondsection {
     position: relative;
     .firstheader {
-      font-family: "Caveat", cursive;
+      font-family: 'Caveat', cursive;
       font-size: 140pt;
       color: $dark-blue;
       margin: 0;
@@ -70,7 +70,7 @@ $darker-gray: #cacece;
       width: fit-content;
       margin-left: 500px;
       h2 {
-        font-family: "Caveat", cursive;
+        font-family: 'Caveat', cursive;
         font-size: 140pt;
         color: $dark-blue;
         margin: 0;
@@ -109,7 +109,7 @@ $darker-gray: #cacece;
     .phonescreen2 {
       position: absolute;
       height: 1000px;
-      top: 1350px;
+      top: 1000px;
       left: -600px;
       z-index: -1;
     }
@@ -163,7 +163,7 @@ $darker-gray: #cacece;
       }
       .phonescreen2 {
         height: 650px;
-        top: 1300px;
+        top: 1130px;
         left: -400px;
       }
     }
