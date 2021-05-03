@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../../styles/index.module.scss'
-import LandingPage from '../../components/landingpage/LandingPage'
 import BlogHome from '../../components/blog/bloghome/BlogHome'
 import SimpleFooter from '../../components/simplefooter/SimpleFooter'
 
