@@ -150,7 +150,7 @@ $darker-gray: #cacece;
           width: 800px;
         }
       }
-      .firstheader {
+      .firstheader, h2 {
         font-size: 100pt;
       }
       .firstparagraph {
@@ -250,7 +250,7 @@ $darker-gray: #cacece;
     }
     .secondsection {
       margin-top: 100px;
-      .firstheader {
+      .firstheader, h2 {
         font-size: 70pt;
       }
       .firstparagraph {
@@ -328,7 +328,7 @@ $darker-gray: #cacece;
       }
     }
     .secondsection {
-      .firstheader {
+      .firstheader, h2 {
         font-size: 50pt;
       }
       padding-top: 500px;
@@ -377,7 +377,7 @@ $darker-gray: #cacece;
           padding-left: 5%;
         }
       }
-      .firstheader {
+      .firstheader, h2 {
         font-size: 20pt;
       }
       .phonescreen1,
