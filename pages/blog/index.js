@@ -3,7 +3,7 @@ import styles from '../../styles/index.module.scss'
 import BlogHome from '../../components/blog/bloghome/BlogHome'
 import SimpleFooter from '../../components/simplefooter/SimpleFooter'
 
-export default function Home() {
+export default function Blog() {
   return (
     // <div >
    <div className={styles.container}>
